@@ -1,0 +1,29 @@
+body{
+    background-color:powderblue;
+}
+
+#scorespan{
+    font-size: medium;
+    float: left;
+    margin-left: 20px;
+}
+
+#timerspan{
+    font-size: medium;
+    float: right;
+    margin-right: 20px;
+}
+
+#sketchtodrawlabel{
+    color: darkgreen;
+    font-size: large;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 15px;
+    animation-name: example;
+    animation-duration: 1s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
